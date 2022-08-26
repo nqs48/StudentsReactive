@@ -33,7 +33,6 @@ public class StudentService {
     }
 
     public Mono<Student> findStudentById(String id){
-
         return studentRepository.findById(id).log();
     }
 
