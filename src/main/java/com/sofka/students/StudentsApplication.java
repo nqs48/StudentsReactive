@@ -1,13 +1,13 @@
-package com.sofka.StudentsReactive;
+package com.sofka.students;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class StudentsReactiveApplication {
+public class StudentsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(StudentsReactiveApplication.class, args);
+		SpringApplication.run(StudentsApplication.class, args);
 	}
 
 }
