@@ -21,6 +21,8 @@ public class Student {
     private Integer grade;
     private Integer state;
 
+    public Student(){}
+
     public Student(String id, String name, String surName, String documentType, String document, String address, String representative, String phone, Integer grade, Integer state) {
         this.id = id;
         this.name = name;
@@ -41,5 +43,7 @@ public class Student {
         this.documentType = documentType;
         this.document = document;
     }
+
+
 }
 
