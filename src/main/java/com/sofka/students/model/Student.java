@@ -21,9 +21,9 @@ public class Student {
     private Integer grade;
     private Integer state;
 
-    public Student(){}
+//    public Student(){}
 
-    public Student(String id, String name, String surName, String documentType, String document, String address, String representative, String phone, Integer grade, Integer state) {
+    public Student(String id, String name, String surName, String documentType, String document, String address, String representative, String phone, Integer grade) {
         this.id = id;
         this.name = name;
         this.surName = surName;
@@ -33,16 +33,16 @@ public class Student {
         this.representative = representative;
         this.phone = phone;
         this.grade = grade;
-        this.state = state;
+        this.state = 1;
     }
 
 
-    public Student(String name, String surName, String documentType, String document) {
-        this.name = name;
-        this.surName = surName;
-        this.documentType = documentType;
-        this.document = document;
-    }
+//    public Student(String name, String surName, String documentType, String document) {
+//        this.name = name;
+//        this.surName = surName;
+//        this.documentType = documentType;
+//        this.document = document;
+//    }
 
 
 }

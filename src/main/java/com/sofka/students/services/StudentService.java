@@ -21,12 +21,42 @@ public class StudentService {
     }
 
     public Flux<Student> getAllStudents(){
+        return studentRepository.findAll()
+                .filter(student -> student.getState() == 1)
+                .delayElements(Duration.ofSeconds(1)).log();
+    }
+
+    public Flux<Student> getHistoryStudents(){
         return studentRepository.findAll().delayElements(Duration.ofSeconds(2)).log();
     }
+
 
     public Mono<Student> createStudent(Student student){
         return studentRepository.save(student).log();
     }
 
+    public Mono<Student> findStudentById(String id){
+
+        return studentRepository.findById(id).log();
+    }
+
+    public Mono<Student> logicalDeleteStudent(String id){
+        return  studentRepository.findById(id)
+                .flatMap(student -> {
+                    student.setState(0);
+                    return studentRepository.save(student);
+                }).log();
+    }
+
+    public Mono<Student> physicalDeleteStudent(String id){
+        return studentRepository.findById(id)
+                .flatMap(removedStudent -> studentRepository.delete(removedStudent)
+                .then(Mono.just(removedStudent)));
+    }
 
 }
+
+
+
+
+
