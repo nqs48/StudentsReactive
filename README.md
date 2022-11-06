@@ -16,64 +16,18 @@ Create a Rest service using reactive programming (WebFlux), it must have at leas
 - Used Postman for requests
 
 
-## [Link Reactive API](https://student-reactive.herokuapp.com/api/students/)
-
-## []()
-
 ---
 
-# PROJECT REVIEW:
-
-##End Points
-
-**Get Students Active**: https://student-reactive.herokuapp.com/api/students/
+## CRUD Actions
 
 
-**Get history Students**: https://student-reactive.herokuapp.com/api/students/history/
+- **Get** data of students that are active and complete history.
 
+- **Create** a new student with atributes. 
 
-**Get Student for Id**: https://student-reactive.herokuapp.com/api/students/{id}
+- **Update** data to old student.
 
-
-##Get Data
-
-
-Get data of students that are active and complete history.
-
-![image]()
-
-
----
-
-## CREATE Student:
-
-### Creating a new student
-
-Creatin a new student with atributes. 
-
-![image]()
-
----
-
-## UPDATE STUDENT:
-
-### Update data
-
-Update data to old student.
-
-![image]()
-
-
-
----
-
-## DELETE STUDENT:
-
-### Delete some student
-
-Deleting a student for id.
-
-![image]()
+- **Delete** a student for id.
 
 
 ---
@@ -167,9 +121,15 @@ Nestor Quiroga Suarez
 Jr. FrontEnd Developer
 
 ```
-- LinkedIn => [Nestor Quiroga Suárez](https://www.linkedin.com/in/nqs48/)
-
-
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
+<p align="center">
+<br>
+<a href="https://www.linkedin.com/in/nqs48/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>&nbsp;&nbsp;
+<a href="https://api.whatsapp.com/send/?phone=573102095353&text=Hola+Nestea%2C+vi+tu+perfil+de+github+y+me+encanto+el+trabajo+que+haces%21%21&type=phone_number&app_absent=0"><img src="https://img.shields.io/badge/what's app-2d572c?style=for-the-badge&logo=whatsapp" alt="whats app" /></a>&nbsp;&nbsp;
+<a href="https://www.instagram.com/nqs48/"><img src="https://img.shields.io/badge/instagram-white?style=for-the-badge&logo=instagram" alt="Instagram"/>&nbsp;&nbsp;
+<a href="mailto:nqs48@hotmail.com"><img src="https://img.shields.io/badge/outlook-blue?&style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="outlook"/></a>
+</a>
+</p>
+<br>
+<p align='center'>
+  <a href="#top"><img src="https://img.shields.io/badge/Back to Top-black?" alt="back to top"/></a>
+</p>
